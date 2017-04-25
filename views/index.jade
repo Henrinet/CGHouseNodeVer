@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  section.main-content
+    link(rel='preload', href='//cdn.shopify.com/s/files/1/0206/9470/t/200/assets/index.scss.css?294678486489210881', as='style', onload="this.rel='stylesheet'")
+    noscript
+      link(rel='stylesheet', href='//cdn.shopify.com/s/files/1/0206/9470/t/200/assets/index.scss.css?294678486489210881')
+    .section-background
+      a(href='/product')
+        img(src='/images/home/home_block_03_bg_1280x.jpg', alt='')
+        img.mobileonly(src='/images/home/home_block_03_bg_1280x.jpg', alt='', style='display: none')
+    .section-background
+      a(href='/product')
+        img.desktoponly(src='/images/home/home_block_01_bg_1280x.jpg', alt='')
+        img.mobileonly(src='/images/home/home_block_01_bg_1280x.jpg', alt='', style='display: none')
+    .section-background
+      a(href='/product')
+        img.desktoponly(src='/images/home/home_block_02_bg_1280x.jpg', alt='')
+        img.mobileonly(src='/images/home/home_block_02_bg_1280x.jpg', alt='', style='display: none')
